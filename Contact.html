@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <a class="brand" href="Index.html">MY <span>PORTFOLIO</span></a>
+    <ul class="nav-links">
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="About.html">About Me</a></li>
+        <li><a href="Skills.html">Skills</a></li>
+        <li><a href="Projects.html">Archievement</a></li>
+        <li><a href="Contact.html" class="active">Contact</a></li>
+    </ul>
+</header>
+
+<main>
+    <div class="page-heading">
+        <div class="eyebrow">LET'S CONNECT</div>
+        <h1>Contact <span class="accent">Me</span></h1>
+        <p>Have a question or want to connect?
+        Send me a message.</p>
+    </div>
+
+    <div class="grid">
+
+        <div class="panel">
+            <h2>Get in Touch</h2>
+            <p>
+                I am open to learning opportunities,
+                collaboration, and conversations about
+                technology and projects.
+            </p>
+
+            <p style="margin-top:20px">
+                <b class="accent">Location</b><br>
+                Kabaloy, Pajac Fuentes Road, Lapu-Lapu City
+            </p>
+
+            <p style="margin-top:20px">
+                <b class="accent">Social Media</b><br>
+                Facebook · GitHub · LinkedIn
+            </p>
+        </div>
+
+        <div class="panel">
+            <h2>Send a Message</h2>
+
+            <form class="contact-form"
+            onsubmit="event.preventDefault();
+            alert('Thank you for your message!');
+            this.reset();">
+
+                <label>
+                    Your Name
+                    <input type="text"
+                    placeholder="Enter your name" required>
+                </label>
+
+                <label>
+                    Your Email
+                    <input type="email"
+                    placeholder="Enter your email" required>
+                </label>
+
+                <label>
+                    Your Message
+                    <textarea placeholder="Write your message..."
+                    required></textarea>
+                </label>
+
+                <button class="btn" type="submit">
+                    Send Message →
+                </button>
+
+            </form>
+        </div>
+
+    </div>
+</main>
+
+<footer class="site-footer">
+    © 2026 My Personal Portfolio.
+</footer>
+
+</body>
+</html>

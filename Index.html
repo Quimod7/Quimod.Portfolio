@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <a class="brand" href="Index.html">
+        <span class="brand-mark">鳥</span>
+        <span>MY <span>PORTFOLIO</span></span>
+    </a>
+
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+
+    <ul class="nav-links" id="navLinks">
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="About.html">About Me</a></li>
+        <li><a href="Skills.html">Skills</a></li>
+        <li><a href="Projects.html">Archievement</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+    </ul>
+</header>
+
+<main class="home-layout">
+
+    <!-- LEFT SIDE: INTRODUCTION -->
+    <section class="hero">
+
+        <div class="eyebrow">WELCOME TO MY PORTFOLIO</div>
+
+        <h1>
+            Hello, I'm
+            <span class="script-name">Chrisan!</span>
+        </h1>
+
+        <div class="role">
+            BSIT Student | Future IT Professional
+        </div>
+
+        <p class="lead">
+            Welcome to my personal portfolio website.
+            Explore my background, skills, projects, and
+            achievements. I am passionate about learning
+            technology and creating useful digital experiences.
+        </p>
+
+        <div class="actions">
+            <a href="About.html" class="btn">About Me →</a>
+            <a href="Projects.html" class="btn secondary">
+                My Projects →
+            </a>
+        </div>
+
+        <div class="socials">
+            <a href="https://facebook.com/">f</a>
+            <a href="https://github.com/">⌘</a>
+            <a href="https://linkedin.com/">in</a>
+            <a href="Contact.html">✉</a>
+        </div>
+
+    </section>
+
+    <!-- RIGHT SIDE: PROFILE PICTURE -->
+    <div class="profile-picture">
+        <div class="profile-circle">
+            <img
+                src="https://scontent.fceb1-5.fna.fbcdn.net/v/t39.30808-6/481258813_1124726289396337_7126950904004942566_n.jpg?stp=dst-jpg_tt6&cstp=mx828x828&ctp=s828x828&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeH95XgqtkvjyA8sgdIS5m2vYEH9m-EFr-NgQf2b4QWv41WIuT8wKm13DUwRxSwicCL_92Dmcqy5gvmMu1M7cURD&_nc_ohc=z01iSR2P1GkQ7kNvwFypbta&_nc_oc=Adox_RBz4LTLOObXvig6KRrW6-9n2C0t2ry2MhGg7nIQlOWEVZdJBd8fUJecQUgVkjFOSX-oGrFUdpr0-iUkJt0x&_nc_zt=23&_nc_ht=scontent.fceb1-5.fna&_nc_gid=TqisNWmkOR1kt6V0I46W6w&_nc_ss=7b2a8&oh=00_AQQkCbj64P8EaOZzqYaEQ7iHvfxs0wWfLr2JtVEW0DFuSQ&oe=6AEB7E41"
+                alt="Chrisanjoy Profile Picture">
+        </div>
+    </div>
+
+</main>
+
+<footer class="site-footer">
+    <span>© 2026 My Personal Portfolio.</span>
+    <span>Dream • Learn • Create</span>
+</footer>
+
+<script>
+function toggleMenu() {
+    document.getElementById("navLinks")
+    .classList.toggle("open");
+}
+</script>
+
+</body>
+</html>
